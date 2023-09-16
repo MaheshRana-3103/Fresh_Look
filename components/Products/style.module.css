@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,800&family=Nunito+Sans:wght@400;600;700;800;900&family=Poppins:wght@400;500;600;700&family=Syne:wght@400;500;600;700;800&family=Work+Sans:wght@900&display=swap');
+
+.mainline{
+    color: var(--Grey-scale-1000, #000);
+    font-family: 'Syne';
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+.upperContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.line{
+    height: 1px;
+    background-color: black;
+}
+.starimage{
+    position: absolute;
+    left: 0px;
+    top: -10px;
+}
+.nonHighlighted{
+    color: var(--Grey-scale-1000, #000);
+    font-family: 'Work Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Highlighted{
+    color: var(--Grey-scale-1000, #000);
+    /* Subtitles */
+    font-family: 'Syne';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.title{
+    color: var(--Grey-scale-1000, #000);
+    /* Subtitles */
+    font-family: 'Syne';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.desc{
+    color: var(--Greyscale-400, rgba(22, 22, 21, 0.50));
+    /* Body text 14 */
+    font-family: 'Work Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.arrow{
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+    width:10%;
+}
+.mainCategories{
+    justify-content: space-around;
+}
+@media (min-width:640px) {
+    
+}
+@media (width<=780px){
+    .mainline{
+        font-size: 40px;
+    }
+    .mainCategories{
+        flex-direction: column;
+        gap:20px;
+        align-items: center;
+    }
+    .categories{
+       flex-direction: row;
+       gap:20px;
+       width: auto;
+    }
+}
+@media (width>=781px){
+
+}

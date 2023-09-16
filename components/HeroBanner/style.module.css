@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,800&family=Nunito+Sans:wght@400;600;700;800;900&family=Poppins:wght@400;500;600;700&family=Syne:wght@400;500;600;700;800&family=Work+Sans:wght@900&display=swap');
+.mainbanner{
+    /* opacity: 0.5; */
+    background: black;
+    /* mix-blend-mode: overlay;  */
+    /* height: 300px; */
+    width: '100%';
+}
+.navtext{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 275;
+}
+.navwatch{
+    color: #FFF;
+    font-family: 'Work Sans';
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 29px;
+}
+.line{
+    height: 1px;
+    background-color: white;
+}
+.starimage{
+    position: absolute;
+    left: 210px;
+    bottom: 3px;
+    top: -10px;
+}
+.navitems{
+    color: #FFF;
+    font-family: 'Work Sans';
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.listitems{
+    color: #FFF;
+    font-family: 'Work Sans';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+.maintext{
+    color: #FFF;
+    font-family: 'Syne';
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 102.6px; 
+}
+.orangeContainer{
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    top: 400px;
+    bottom: 0;
+    right: 0;
+    opacity: 0.8 ;
+    background-color: #F07E15;
+}
+.orangeText{
+    font-family: 'Syne';
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 102.6px;
+    color:transparent;
+    margin-left:300px;   
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+.seeMore{   
+    margin-left: 7.1rem;
+    width: '25%';
+    border: 1px solid #fff;
+}
+
+.starimage2{
+    position: absolute;
+    bottom: 3px;
+    top: -11px;
+    right: -15px;
+}
+.mainphoto :last-child{
+    position:relative;
+    left:177px;
+    /* top:-83px; */
+}
+.textContainer{
+    gap:40px;
+}
+.navItems{}
+.main{}
+.bag{}
+
+@media (min-width:640px) {
+    
+}
+@media screen and (width<=780px){
+    .main{
+        position: relative;
+        margin:0;
+    }
+    .navButton{
+        align-self: center;
+        margin-right: 20px;
+        cursor:pointer;
+    }
+    .mainphoto :last-child{
+        position:relative;
+        top:0;
+        left:0;
+    }
+    .orangeContainer{
+        width: 100%;
+    }
+    .bag{
+        display: none;
+    }
+    .line .starimage{
+        display: none;
+    }
+    .navItems{
+        position: absolute;
+        z-index: 11;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        height: 300px;
+        gap:20px;
+        margin:0px 10px;
+        width:100%;
+        margin-top:62px;
+        flex-direction: column;
+    }
+    .textContainer{
+        /* align-items: end; */
+        gap:0;
+        bottom:0;
+        position: relative;
+    }
+    .orangeContainer{
+        height:30%;
+        top:280px;
+    }   
+    .maintext{
+        font-size: 55px;
+    }
+    .orangeText{
+        font-size: 60px;
+    }
+    .prod .line{
+        display: none;
+    }
+    .prod{
+        border: none;
+    }
+    .navItems li{
+        display: none;
+    }
+}
+
+@media (width>=781px){
+   .main{
+    
+   }
+   .navButton{
+    display: none;
+   }
+   .navItems{
+    gap:6.813rem
+   }
+   .prod{
+    border: 1px solid var(--Grey-scale-000, #FFF)
+   }
+}

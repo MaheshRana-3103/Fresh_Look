@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,800&family=Nunito+Sans:wght@400;600;700;800;900&family=Poppins:wght@500&family=Syne:wght@400;500;600;700;800&display=swap');
+.main{
+    height: 42px;
+    width: '100%';
+    background: #1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navtext{
+    color: #626262;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

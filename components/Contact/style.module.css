@@ -1,0 +1,98 @@
+.main{
+    background: url("../../Assets/Products/footerbg.png"), lightgray 50% / cover no-repeat;
+    /* padding:40px; */
+}
+.newsTitle{
+    color: var(--Grey-Scale-200, rgba(255, 255, 255, 0.50));
+    font-family: 'Syne';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.newsText{
+    color: var(--Grey-Scale-200, rgba(255, 255, 255, 0.50));
+    font-family: 'Work Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.upperContent{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 72px;
+}
+.customInput {
+    border: none; 
+    background-color: transparent; 
+    border-bottom: 2px solid var(--Grey-Scale-200, rgba(255, 255, 255, 0.50)); 
+    outline: none;
+    width: 100%; 
+    padding: 5px; 
+    font-size: 16px; 
+    color: var(--Grey-Scale-200, rgba(255, 255, 255, 0.50));
+    font-family: 'Work Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.customInput::placeholder {
+    color: var(--Grey-Scale-200, rgba(255, 255, 255, 0.50)); 
+}
+
+.getintouchtext{
+    color: var(--Grey-scale-000, #FFF);
+    font-family: 'Syne';
+    font-size: 135px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 102.6px; /* 76% */
+}
+.circlebutton {
+    width: 181px; 
+    height: 181px;
+    border: 2px solid var(--Pimary-colour, #F07E15);; 
+    border-radius: 50%; 
+    background-color: transparent;
+    color: transparent; 
+    text-align: center; 
+    line-height: 100px; 
+    text-decoration: none; 
+    position: absolute;
+    right:60px;
+}
+.w30{
+    width: 30%;
+}
+.w40{
+    width: 40%;
+}
+.circlebutton span {
+    color: var(--Pimary-colour, #F07E15);; /* Color for the button text */
+    font-size: 16px; /* Font size for the text */
+}
+@media (min-width:640px) {
+    
+}
+@media (width<=780px){
+    .upperContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        padding: 72px;
+    }
+    .w40 , .w30{
+        width: 100%;
+    }
+    .getintouchtext{
+        font-size: 60px;
+    }
+}
+@media (width>=781px){
+
+}
