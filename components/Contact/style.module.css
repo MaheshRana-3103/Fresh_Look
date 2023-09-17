@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,800&family=Nunito+Sans:wght@400;600;700;800;900&family=Poppins:wght@400;500;600;700&family=Syne:wght@400;500;600;700;800&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .main{
     background: url("../../Assets/Products/footerbg.png"), lightgray 50% / cover no-repeat;
     /* padding:40px; */
