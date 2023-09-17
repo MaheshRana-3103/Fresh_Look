@@ -12,7 +12,7 @@ function Contact() {
     const validationSchema = yup.object().shape({
         name: yup.string().required("Required"),
         email: yup.string().email('Invalid email').required('Required'),
-        description: yup.string().required('Required'),
+        description: yup.string().required('Required').max(50,'Please enter a message of length b/w 1-50').min(2,'Please enter a message of length b/w 2-50'),
     })
     return (
         <div className={style.main}>

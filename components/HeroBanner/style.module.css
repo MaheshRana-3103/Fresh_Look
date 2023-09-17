@@ -95,6 +95,11 @@
 .navItems{}
 .main{}
 .bag{}
+.star3{
+    position: absolute;
+    right: 0px ;
+    top: 112px;
+}
 
 @media (min-width:640px) {
     
@@ -162,7 +167,12 @@
         display: none;
     }
 }
-
+@media (781px <= width <= 1000px){
+    .star3{
+        right:-154px;
+        top: 170px;
+    }
+}
 @media (width>=781px){
    .main{
     

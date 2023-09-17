@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import style from './style.module.css';
 import star1 from "../../Assets/HeroBanner/Star1.png";
+import star3 from "../../Assets/HeroBanner/Star3.png";
 import main_image from "../../Assets/HeroBanner/main_image.png"
 import Image from 'next/image';
 import vector from "../../Assets/HeroBanner/Vector.png";
@@ -59,7 +60,7 @@ function HeroBanner() {
             <div className='flex w-full '>
                 <div className={`w-[50%] flex flex-col  mt-[50px] ${style.textContainer}`}>
                 <span className={`${style.maintext} ml-[7.118rem]  z-10`}>Fresh</span>
-                <span className={`${style.orangeText} ml-[7.118rem]  z-10`}>2023</span>
+                <span className={`${style.orangeText} ml-[7.118rem]  z-10`}>2022</span>
                 <span className={`${style.maintext} ml-[187px] relative z-10`}>Look</span>
                     <div className={`${style.line} w-[100%] z-10 relative`}>
                         <Image src={star1} height={22} width={22} alt="photo"
@@ -72,7 +73,7 @@ function HeroBanner() {
                     </div>
                 </div>
                 <div className={` ${style.mainphoto} w-[50%]`} >
-                    {/* <Image src={star3} style={{ position: 'absolute', right: 0, top: 112, }} /> */}
+                    <Image src={star3} className={style.star3} />
                     <Image src={main_image}  height={500} width={400} alt="china"/>
                 </div>
                 <div className={`${style.orangeContainer}`}></div>
