@@ -3,8 +3,7 @@ import style from './style.module.css';
 import star1 from "../../Assets/HeroBanner/Star1.png";
 import main_image from "../../Assets/HeroBanner/main_image.png"
 import Image from 'next/image';
-import star3 from "../../Assets/HeroBanner/Star3.png";
-import vector from "../../Assets/HeroBanner/vector.png";
+import vector from "../../Assets/HeroBanner/Vector.png";
 import hamburger from "../../Assets/HeroBanner/hamburger.png";
 import cross from "../../Assets/HeroBanner/cross.png";
 import NavBar from '../NavBar';
