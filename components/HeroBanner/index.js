@@ -59,7 +59,7 @@ function HeroBanner() {
             <div className='flex w-full '>
                 <div className={`w-[50%] flex flex-col  mt-[50px] ${style.textContainer}`}>
                 <span className={`${style.maintext} ml-[7.118rem]  z-10`}>Fresh</span>
-                <span className={`${style.orangeText} ml-[7.118rem]  z-10`}>2022</span>
+                <span className={`${style.orangeText} ml-[7.118rem]  z-10`}>2023</span>
                 <span className={`${style.maintext} ml-[187px] relative z-10`}>Look</span>
                     <div className={`${style.line} w-[100%] z-10 relative`}>
                         <Image src={star1} height={22} width={22} alt="photo"
