@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+body{
+    font-family: 'Syne','Work Sans','Poppins',Verdana, Tahoma, sans-serif;
+}
 
 

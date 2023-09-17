@@ -88,7 +88,6 @@
 .mainphoto :last-child{
     position:relative;
     left:177px;
-    /* top:-83px; */
 }
 .textContainer{
     gap:40px;
@@ -139,7 +138,6 @@
         flex-direction: column;
     }
     .textContainer{
-        /* align-items: end; */
         gap:0;
         bottom:0;
         position: relative;
